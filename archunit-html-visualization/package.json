@@ -51,13 +51,13 @@
     "eslint-plugin-promise": "^4.2.1",
     "mocha": "^6.0.2",
     "nodemon": "^1.11.0",
-    "polymer-bundler": "^4.0.2",
+    "polymer-bundler": "4.0.10",
     "style-loader": "^0.23.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1"
   },
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^1.0.1",
-    "d3": "^4.9.1"
+    "@webcomponents/webcomponentsjs": "2.2.10",
+    "d3": "5.11.0"
   }
 }
