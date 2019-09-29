@@ -2,6 +2,7 @@ package com.tngtech.archunit.example.layers.persistence.first.dao.domain;
 
 import java.util.Objects;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -17,6 +18,9 @@ public class PersistentObject {
     public void setId(long id) {
         this.id = id;
     }
+
+    @Column(name = "firstName", nullable = true)
+    private String firstName;
 
     @Override
     public int hashCode() {
